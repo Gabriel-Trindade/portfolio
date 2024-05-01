@@ -135,40 +135,49 @@ export default function Header({
             </a>
           </li>
           <li>
-            <a
-              href="#"
-              className={`${
+            <ScrollLink
+              to="sobre-mim"
+              smooth
+              duration={500}
+              offset={-100}
+              className={
                 darkMode
                   ? "text-gray-300 hover:text-white"
                   : "text-black hover:text-gray-300"
-              }`}
+              }
             >
               Sobre mim
-            </a>
+            </ScrollLink>
           </li>
           <li>
-            <a
-              href="#"
-              className={`${
+            <ScrollLink
+              to="projetos"
+              smooth
+              duration={500}
+              offset={-100}
+              className={
                 darkMode
                   ? "text-gray-300 hover:text-white"
                   : "text-black hover:text-gray-300"
-              }`}
+              }
             >
               Projetos
-            </a>
+            </ScrollLink>
           </li>
           <li>
-            <a
-              href="#"
-              className={`${
+            <ScrollLink
+              to="contato"
+              smooth
+              duration={500}
+              offset={-100}
+              className={
                 darkMode
                   ? "text-gray-300 hover:text-white"
                   : "text-black hover:text-gray-300"
-              }`}
+              }
             >
               Contato
-            </a>
+            </ScrollLink>
           </li>
         </ul>
       </nav>
