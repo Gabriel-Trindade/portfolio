@@ -295,7 +295,7 @@ export default function Home() {
             </h2>
             <div className="flex flex-col items-center mb-4">
               <Image
-                src="/iStormImportsThumb.png" // Caminho da imagem mobile
+                src="iStormImportsThumb.png" // Caminho da imagem mobile
                 alt="Imagem do projeto mobile"
                 width={700}
                 height={700} // Altura ajustada para uma proporção mais vertical
