@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gabriel Trindade - Portfólio
 
-## Getting Started
+## Sobre
 
-First, run the development server:
+Este é o repositório do meu portfólio, onde compartilho informações sobre mim, meu trabalho e projetos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Visão Geral
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Meu portfólio é uma vitrine das minhas habilidades e experiências em desenvolvimento web e mobile. Nele, você encontrará informações sobre minha formação, habilidades técnicas, projetos e como entrar em contato comigo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Conteúdo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Sobre Mim**: Uma breve introdução sobre quem sou, minha formação e experiência.
+- **Habilidades Técnicas**: Uma lista das linguagens de programação, ferramentas e tecnologias que domino.
+- **Projetos**: Uma seção destacando alguns dos meus projetos mais recentes e significativos, com links para seus repositórios ou sites.
+- **Contato**: Informações sobre como entrar em contato comigo, seja para oportunidades profissionais, colaborações ou apenas para dizer oi!
 
-## Learn More
+## Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: React.js, Next.js, HTML5, CSS3, Tailwind CSS
+- **Backend**: Node.js
+- **Outras Ferramentas**: Git, Figma, Visual Studio Code
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Como Contribuir
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Se você encontrar algum problema, tiver sugestões de melhorias ou quiser contribuir com código, fique à vontade para abrir uma issue ou enviar um pull request.
 
-## Deploy on Vercel
+## Contato
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Email**: [gabriel18.trindade@hotmail.com](mailto:gabriel18.trindade@hotmail.com)
