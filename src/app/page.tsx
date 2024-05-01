@@ -109,7 +109,7 @@ export default function Home() {
           >
             <div className="col-span-1 flex flex-col items-center">
               <Image
-                src="/eu.png"
+                src="eu.png"
                 alt="Imagem de Perfil"
                 width={200}
                 height={200}
@@ -211,7 +211,7 @@ export default function Home() {
             </h2>
             <div className="flex flex-col items-center mb-4">
               <Image
-                src="/innovateThumb.png" // Caminho da imagem mobile
+                src="innovateThumb.png" // Caminho da imagem mobile
                 alt="Imagem do projeto mobile"
                 width={200}
                 height={300} // Altura ajustada para uma proporção mais vertical
@@ -247,7 +247,7 @@ export default function Home() {
             <h2 className="text-2xl font-bold mb-4 text-center">iStorm RH</h2>
             <div className="flex flex-col items-center mb-4">
               <Image
-                src="/iStormThumb.png" // Caminho da imagem web
+                src="iStormThumb.png" // Caminho da imagem web
                 alt="Imagem do projeto web"
                 width={700}
                 height={700} // Altura ajustada para uma proporção mais horizontal

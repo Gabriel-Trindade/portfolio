@@ -26,7 +26,7 @@ export default function Header({
     >
       <div className="flex-shrink-0">
         <Image
-          src={darkMode ? "/logo-for-dark.png" : "/logo-for-light.png"}
+          src={darkMode ? "logo-for-dark.png" : "logo-for-light.png"}
           alt="Logo"
           width={75}
           height={75}
