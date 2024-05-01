@@ -5,12 +5,19 @@ import { MdDarkMode } from "react-icons/md";
 import { FaSun } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
 
+interface HeaderProps {
+  toggleMenu: React.MouseEventHandler<HTMLButtonElement>;
+  darkMode: boolean;
+  toggleTheme: () => void;
+  menuOpen: boolean;
+}
+
 export default function Header({
   toggleMenu,
   darkMode,
   toggleTheme,
   menuOpen,
-}) {
+}: HeaderProps) {
   return (
     <header
       className={`flex items-center justify-between px-4 lg:px-8 py-4 lg:py-2 ${

@@ -37,7 +37,7 @@ export default function Home() {
   });
 
   useEffect(() => {
-    let timer;
+    let timer: NodeJS.Timeout | undefined;
     if (enviado) {
       timer = setTimeout(() => {
         setEnviado(false);
@@ -78,7 +78,7 @@ export default function Home() {
     }
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     enviarEmail();
   };
@@ -344,6 +344,7 @@ export default function Home() {
             className="flex flex-col w-full sm:max-w-md p-4 border rounded-lg shadow-lg space-y-2 md:space-y-4"
             onSubmit={handleSubmit}
           >
+
             <div
               className={`text-3xl font-bold mb-4 text-center ${
                 darkMode ? "text-white" : "text-black"
