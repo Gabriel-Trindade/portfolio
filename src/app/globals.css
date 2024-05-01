@@ -35,7 +35,6 @@ header {
   top: 100px; 
   left: 0;
   right: 0;
-  background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   transition: max-height 0.3s ease-out, opacity 0.3s ease-out, visibility 0s 0.3s;

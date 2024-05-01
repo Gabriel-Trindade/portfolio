@@ -113,17 +113,23 @@ export default function Header({
       </nav>
 
       <nav
-        className={`lg:hidden ${menuOpen ? "mobile-menu open" : "mobile-menu"}`}
+        className={`lg:hidden ${
+          menuOpen && darkMode
+            ? "mobile-menu open bg-gray-800 text-white"
+            : menuOpen && !darkMode
+            ? "mobile-menu open bg-white text-black"
+            : "mobile-menu"
+        }`}
       >
         <ul className="flex flex-col space-y-4 px-4 py-2">
           <li>
             <a
               href="#"
-              className={
+              className={`${
                 darkMode
                   ? "text-gray-300 hover:text-white"
                   : "text-black hover:text-gray-300"
-              }
+              }`}
             >
               Início
             </a>
@@ -131,11 +137,11 @@ export default function Header({
           <li>
             <a
               href="#"
-              className={
+              className={`${
                 darkMode
                   ? "text-gray-300 hover:text-white"
                   : "text-black hover:text-gray-300"
-              }
+              }`}
             >
               Sobre mim
             </a>
@@ -143,11 +149,11 @@ export default function Header({
           <li>
             <a
               href="#"
-              className={
+              className={`${
                 darkMode
                   ? "text-gray-300 hover:text-white"
                   : "text-black hover:text-gray-300"
-              }
+              }`}
             >
               Projetos
             </a>
@@ -155,11 +161,11 @@ export default function Header({
           <li>
             <a
               href="#"
-              className={
+              className={`${
                 darkMode
                   ? "text-gray-300 hover:text-white"
                   : "text-black hover:text-gray-300"
-              }
+              }`}
             >
               Contato
             </a>
