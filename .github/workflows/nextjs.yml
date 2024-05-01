@@ -29,6 +29,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+          # Adicione esta etapa para copiar os arquivos da pasta public para a pasta de saída
+      - name: Copy Public Files
+        run: cp -r public/* ./out/
       - name: Checkout
         uses: actions/checkout@v4
       - name: Detect package manager
