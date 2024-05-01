@@ -31,7 +31,7 @@ jobs:
     steps:
           # Adicione esta etapa para copiar os arquivos da pasta public para a pasta de saída
       - name: Copy Public Files
-        run: cp -r public/ ./out/
+        run: cp -r ${{ github.workspace }}/public/ ${{ github.workspace }}/out/
       - name: Checkout
         uses: actions/checkout@v4
       - name: Detect package manager
